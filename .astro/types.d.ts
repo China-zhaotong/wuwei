@@ -206,13 +206,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"数据库知识/MySql/Mysql.md": {
-	id: "数据库知识/MySql/Mysql.md";
+"数据库知识/MySql/Mysql.mdx": {
+	id: "数据库知识/MySql/Mysql.mdx";
   slug: "数据库知识/mysql/mysql";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
+} & { render(): Render[".mdx"] };
 "数据库知识/Oracle/Oracle.md": {
 	id: "数据库知识/Oracle/Oracle.md";
   slug: "数据库知识/oracle/oracle";
